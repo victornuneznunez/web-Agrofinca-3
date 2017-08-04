@@ -68,7 +68,89 @@
 	</script>
 	
 </head>
-    <body>
+	<body>
+
+
+</div><!-- PRELOADER -->
+<img id="preloader" src="images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<header>
+			 
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					
+					<!-- LOGO -->
+					
+                   <a href="#" class="brand">
+                        <img src="images/logo.png" width="213" height="78" alt="Logo" />
+                        <!-- This is website logo -->
+                    </a>
+                    
+                    					
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="first active scroll_btn"><a href="#home" >Inicio</a></li>
+								<li class="sub-menu"><a href="#projects" >Productos</a>
+									<!--<a href="javascript:void(0);" >Productos</a>-->
+									<ul>
+										<li><a href="ahorro.html" >Ahorro</a></li>
+										<li><a href="credito.html" >Crédito</a></li>
+										<li><a href="socios.html" >Socios</a></li>
+										<li><a href="trnasparencia.html" >Transparencia</a></li>
+										
+									</ul>
+								</li>
+                                <li class="scroll_btn"><a href="#team" >Galería</a></li>
+								<li class="scroll_btn"><a href="#news" >Nosotros</a></li>
+								<li class="scroll_btn last"><a href="#contacts" >Contacto</a></li>
+								
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+		
+	<!-- //SIMUMLADOR-->
+	
+      <p >SIMULADOR DE CRÉDITO</p>
+	  <p>Crédito Normal </p>
+	  <p>Tasa Efectiva Anual: 34.49%</p>
+      <p> el monto de tu crédito y el plazo, el cronograma se genera  tomando la fecha actual.</p>
+      
+  		
+        <div id="contact_form" style="margin-left: 90px" >
+			<form method="post" name="contact" action="prosim.php">
+                       
+                          	Monto: S/. <input type="text" id="monto" name="monto"  maxlength="7" size="12" />
+                        	Plazo: <input type="text" id="plazo" name="plazo" size="6" maxlength="4"  /> Meses 
+						
+		              	<p align="center"><input type="submit" value="Calcular" id="submit" name="submit" class="submit_btn" /></p>
+            </form>
+      	</div>
+        
+		<p>* No se admite fracciones de meses.</p>
+        <p>* El monto y el plazo deben ser valores positivos.</p>
     
-    </body>
+    <!-- //SIMUMLADOR-->
+</div>
+	
+      
+	
+	
+
+
+</body>
+
+
 </html>
